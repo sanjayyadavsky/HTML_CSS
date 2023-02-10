@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Red Rose';
+}
+.clearfix{
+    clear: both;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.container > div{
+    float: left;
+}
+.container > .nav-item:nth-child(1){
+    width: 20%;
+}
+.container > .nav-item:nth-child(2){
+    width: 60%;
+}
+.container > .nav-item:nth-child(3){
+    width: 20%;
+}
+.navbar{
+    padding-top: 10px;
+    background-color: #2b2922;
+    overflow: hidden;
+}
+div > ul >li{
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    color: white;
+    margin: 0 10px;
+}
+div>ul{
+    position: relative;
+    left: 25%;
+}
+button{
+    margin-top: 10px;
+    padding: 13px 50px;
+    font-size: 21px;
+    background-color: #2b2922;
+    border: 1px solid #928234;
+    color: #928234;
+    border-radius: 10px;
+}
+.hero{
+    background-color: #2b2922;
+    overflow: hidden;
+    padding-top: 60px;
+    
+}
+.rightCont{
+    width: 50%;
+    font-size: 80px;
+    color: #ffffff;
+}
+.leftCont{
+    width: 50%;
+    font-size: 30px;
+    color:#ffffff;
+}
+.heroimg{
+    background-image: url(./assets/law_requirements.jpg);
+    height:540px;
+    background-size: cover;
+    background-color: rgb(126, 45, 45);
+}
