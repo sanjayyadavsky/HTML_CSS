@@ -1,0 +1,137 @@
+@media screen and (max-width:1251px) {
+    .logo{
+        width: auto;
+    }
+    .menu-logo{
+        width: 20%;
+    }
+    .navbar{
+        left: 3%;
+        width: auto;
+    }
+    .nav-item{
+        padding: 13px 11px;
+        font-size: 14px;
+    }
+    #register{
+        margin: 0;
+        padding: 10px 2px;
+    }
+
+}
+@media screen and (max-width:942px) {
+    #register{
+        display: none;
+    }
+    .nav-item{
+        display: none;
+    }
+    .nav-icon{
+            display: block;
+            margin: auto 0;
+            font-size: 20px;
+    }
+    .great-website {
+        flex-direction: column-reverse;
+    }
+    .right-side-great {
+        width:auto;
+    }
+    .middle-body {
+        flex-direction: column;
+    }
+    .left-middle-body {
+        width: 100%; 
+      
+    }
+    .buttom-body {
+        flex-direction: column-reverse;
+    }
+    .buttom-body-right {
+        width: 100%; 
+    }
+    .thorhosting {
+        flex-direction: column;
+    }
+    .thorhosting >h3{
+        width: 100%;
+    }
+    .thorhosting >p {
+        width: 100%;
+       
+    }
+    .upper {
+        flex-direction: column;
+    }
+    .upper>div{
+        margin: auto;
+        width: 60%;
+        text-align: center;
+    }
+    .middle {
+        flex-direction: column;
+    }
+    .middle>div{
+        margin: auto;
+        width: 60%;
+        text-align: center;
+    }
+    .hosting>img {
+        height: 110px;
+        width: 150px;
+    }
+    .container-packages > div {
+        flex-direction: column;
+    }
+    .container-packages > div>div{
+        width: auto;
+    }
+    .customer-items>div {
+        flex-direction: column;
+    }
+    .customer-item {
+        width: auto;
+    }
+    .quit-worry > div {
+        flex-direction: column;
+    }
+    .quit-worry>div>div {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .quit-worry-button {
+        margin: 0 auto;
+    }
+   
+    footer>div {
+        flex-direction: column;
+    }
+    .menu-logo{
+        width: 100%;
+    }
+    .menu{
+        text-align: center;
+        width: 100%;
+    }
+    footer>div>div{
+        margin-top: 40px;
+        width: 100%;
+        text-align: center;
+    }
+    .right-side-great>h1 {
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+    .left-middle-body >h2 {
+        font-size: 30px;
+    }
+    .buttom-body-right> h1 {
+        font-size: 30px;
+    }
+    .thorhosting>h3 {
+        font-size: 30px;
+    }
+    .container-packages>h1 {
+        font-size: 30px;
+    }
+}

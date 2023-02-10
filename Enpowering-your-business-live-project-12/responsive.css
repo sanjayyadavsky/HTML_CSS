@@ -1,0 +1,268 @@
+@media screen and (max-width:1284px) {
+    .lets-talk{
+        padding: 9px 24px;
+        left: 28%;
+    }
+}
+@media screen and (max-width:1231px) {
+    .hero{
+        flex-direction: column;
+    }
+    .hero-detials{
+        width: 100%;
+    }
+    .hero-image{
+        width: 50%;
+        margin: auto;
+    }
+    .hero-detials>h1{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .hero-detials>p {
+        margin: auto;
+        text-align: center;
+    }
+    .gmail-section{
+        margin: 30px auto 0;
+        justify-content: space-between;
+    }
+    .gmail-section>input{
+        width: 70%;
+    }
+    .people-right-container>img {
+        width: fill-available;
+    }
+    .hero-image > img {
+        width: 95%;
+        height: -webkit-fill-available;
+        margin-right: 30px;
+    }
+    .First-circle{
+        width: 16%;
+    }
+    .DM-right-container>img {
+        width: 439px;
+        height: 407px;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+    .nav-items{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .nav-item{
+        display: none;
+    }
+    .nav-icon{
+        display: block;
+        margin: auto 0px;
+        color: #fff;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:955px) {
+    .hero-image>img {
+        width: 95%;
+    }
+    .contents-detail {
+    flex-direction: column-reverse;
+    }
+    .body-image {
+        margin: auto;
+    }
+    .detail {
+        width: 100%; 
+    }
+    .detail>h2 {
+       width: 95%; 
+       
+    }
+    .made-your-care{
+        width: 80%;
+    }
+    .degital-marketing-container {
+        flex-direction: column;
+    }
+    .degital-marketing-container>div {
+        width: 100%;
+    }
+    .DM-heading{
+        width: 100%;
+    }
+    .DM-left-container>p {
+        width: 100%;
+    }
+    .people-will-always {
+        flex-direction: column-reverse;
+    }
+    .people-will-always>div {
+        width: 100%; 
+    }
+    .body-image{
+        width: 100%;
+    }
+    .body-image>img {
+        width: 80%;
+    }
+    .meets-great-team {
+        flex-direction: column;
+    }
+    .meets-great-team >h1 {
+        width: 100%;
+    }
+    .meets-great-team >p {
+      width: 100%;
+      margin: 10px auto 20px;
+    }
+    .team-number {
+        flex-direction: column;
+    }
+    .team-number>div {
+      width: 100%;
+    }
+    .hero-image {
+     width: 100%; 
+        margin: initial;
+    }
+    .services-container {
+        flex-direction: column;
+    }
+    .number-project {
+        width: 100%; 
+    }
+    .DM-right-container>img {
+        width: 100%;
+    }
+    .body-image>img {
+        width: 100%; 
+    }
+
+    .hero-image>img{
+        width: 100%;
+    }
+   
+  
+}
+@media screen and (max-width:768px) {
+    .hero-image>img {
+        width: -webkit-fill-available;
+    }
+    .First-circle {
+        width: 19%;
+    }
+    .hero-detials >h1 {
+        font-size: 27px;
+        margin-top: 30px;
+        margin-bottom: 21px;
+    }
+    .gmail-section{
+        width: 100%;
+    }
+    .gmail-section>input {
+        padding: 0px ; 
+        top: 0px;
+       
+    }
+    .gmail-section>button {
+        padding: 7px 48px;
+        width: auto;
+    }
+
+    .contact-businesses>p {
+    width: auto;
+    margin: 50px auto;
+    font-size: 25px;
+    }
+    .number{
+        font-size: 20px;
+    }
+    .label{
+        font-size: 10px;
+    }
+    .number-project>div {
+        padding: 15px;
+    }
+    .team-image{
+        height: 170px;
+    }
+    .First-circle{
+        width: 21%;
+    }
+    .fa-circle-play {
+        font-size: 30px;
+    }
+    .made-your-care{
+        font-size: 29px;
+    }
+    .detail>h2{
+        font-size: 23px;
+    }
+    .detail>p{
+        margin-top: 15px;
+    }
+    .lets-talk-body{
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    .DM-heading{
+        font-size: 23px;
+        margin-top: 20px;
+    }
+    .DM-left-container>p {
+        margin-top: 15px;
+        
+    }
+    .DM-left-container>button {
+        margin-top: 20px;
+    }
+    .people-left-container>h2 {
+         width: 100%; 
+        font-size: 23px;
+        margin-top: 19px;
+    }
+    .people-left-container>p {
+        margin-top: 15px;
+        width: 100%;
+       
+    }
+    .people-left-container>button {
+        margin-top: 20px;
+    }
+    .meets-great-team >h1 {
+        font-size: 25px;
+        padding-bottom: 0px;
+    }
+    .meets-great-team >p {
+        font-size: 18px;
+    }
+    .team-pic {
+        width: 90%;
+        text-align: center;
+        height: 350px;
+    }
+    .team-profile-detial {
+        width: 100%; 
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .lets-talk {
+        margin: -6px auto 0;
+    }
+
+    .logo >img {
+        width:auto; 
+        height: 28px;
+    }
+    .fa-brands {
+        font-size: 15px;
+        padding: 5px;
+    }
+    .footer-items {
+        font-size: 23px;
+        margin-top: 7%;
+    }
+}
+    
