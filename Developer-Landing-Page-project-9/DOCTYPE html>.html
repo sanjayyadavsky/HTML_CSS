@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      /* Navigation bar style */
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+      }
+
+      /* Navigation links style */
+      .navbar a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 20px;
+      }
+
+      /* Style for toggle button */
+      .toggle-button {
+        display: none;
+        cursor: pointer;
+      }
+
+      /* Style for navigation links on small screens */
+      .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #333;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        transition: all 0.5s ease;
+        transform: translateX(100%);
+      }
+
+      /* Show navigation links on small screens */
+      .navbar-collapse.active {
+        transform: translateX(0%);
+      }
+
+      /* Hide navigation links on large screens */
+      @media (min-width: 768px) {
+        .navbar-collapse {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <div class="navbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+      <!-- Toggle button -->
+      <div class="toggle-button">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+    </div>
+
+    <!-- Navigation links for small screens -->
+    <div class="navbar-collapse">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <!-- JavaScript to toggle navigation links on small screens -->
+    <script>
+      const toggleButton = document.querySelector(".toggle-button");
+      const navbarCollapse = document.querySelector(".navbar-collapse");
+
+      toggleButton.addEventListener("click", function() {
+        navbarCollapse.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

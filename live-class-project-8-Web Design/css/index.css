@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+.clearfix{
+    clear: both;
+}
+body{
+    background: url(/images/backcover.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.main-div{
+    width: 95%;
+    margin: 35px auto;
+}
+nav > img {
+    float: left;
+    width: 8%;
+} 
+nav > div{
+    float: left;
+    width: 77%;
+}
+nav > button {
+    float: left;
+    width: 10%;
+}
+.nav-item{
+    float: left;
+    color: #3e4794;
+    position: relative;
+    left: 30%;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.signin-btn{
+    border: none;
+    color: #fff;
+    padding: 8px 0px;
+    font-size: 15px;
+    border-radius: 20px;
+    background: linear-gradient(to left, #ff8adc , #965cf2);
+}
+.intro-section{
+    position: absolute;
+}
+.intro-section > div{
+    float: left;
+}
+.intro-section > div:first-child{
+    width: 35%;
+    top: 200px;
+    position: relative;
+}
+.intro-section > div:last-child{
+    width: 65%;
+}
+.left-section>h1{
+    font-size: 90px;
+    color: #3e4794;
+}
+.left-section>h4{
+    padding-top: 30px;
+    font-size: 30px;
+    color: #8b8da7;
+}
+.imgs-div > img:last-child{
+    width: 86%;
+    position: relative;
+    left: -100px;
+    top: 37px;
+}
+.left-section >button{
+    margin-top: 50px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 9px 30px;
+    font-size: 44px;
+    border-radius: 44px;
+    background: linear-gradient(to left, rgb(255, 138, 220), rgb(150, 92, 242));
+}
+
+/* animation for navbar
+ */
+
+.nav-item:hover{
+    scale: 1.2;
+
+}

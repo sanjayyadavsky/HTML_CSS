@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins';
+}
+.clearfix{
+    clear: both;
+}
+.container{
+    width: 90%;
+    margin: 0 auto ;
+}
+.navbar-container{
+    padding-top: 20px;
+}
+.navbar-container>div{
+    float: left;
+}
+.navbar-container>div:nth-child(1){
+ width: 20%;
+}
+.navbar-container>div:nth-child(2){
+    width: 60%;
+}
+.navbar-container>div:nth-child(3){
+    width: 20%;
+}
+.list-item{
+    float: left;
+    padding: 15px;
+    font-size: 15px;
+    margin-right: 10px;
+    color: #8e8e8e;
+}
+.banner-container div:first-child{
+    float: left;
+    width: 40%;
+}
+.banner-container div:last-child{
+    float: left;
+    width: 60%;
+}
+.nav-button{
+    padding: 20px;
+    padding: 12px 30px;
+    border-radius: 10px;
+    background-color: #5955b3;
+    border: none;
+    color: #efeff8;
+}
+.description{
+    margin-top: 10px;
+    font-size: 23px;
+    color: #8e8e8e;
+}
+.button-group .nav-button{
+    float: right;
+}
+
+.banner-container div:last-child > img{
+    width: 100%;
+}
+.heading-text{
+    font-size: 60px;
+    padding-top: 60px;
+    color: #3c3060;
+}
+.heading-text > span{
+    color: #5955b3;
+}
+.btn{
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-top: 15%;
+}
+
+
+/* hover-effect */
+.list-item:hover{
+    color: #191919;
+    transform: scale(1.2);
+}
